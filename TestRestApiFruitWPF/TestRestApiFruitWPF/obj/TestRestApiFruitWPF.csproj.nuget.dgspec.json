@@ -1,0 +1,149 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Bing Yan\\Desktop\\adesk application\\project\\RESTFruitWPF\\TestRestApiFruitWPF\\TestRestApiFruitWPF\\TestRestApiFruitWPF.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Bing Yan\\Desktop\\adesk application\\project\\RESTFruitWPF\\RestApiFruitWPF\\RestApiFruitWPF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bing Yan\\Desktop\\adesk application\\project\\RESTFruitWPF\\RestApiFruitWPF\\RestApiFruitWPF.csproj",
+        "projectName": "RestApiFruitWPF",
+        "projectPath": "C:\\Users\\Bing Yan\\Desktop\\adesk application\\project\\RESTFruitWPF\\RestApiFruitWPF\\RestApiFruitWPF.csproj",
+        "packagesPath": "C:\\Users\\Bing Yan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bing Yan\\Desktop\\adesk application\\project\\RESTFruitWPF\\RestApiFruitWPF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bing Yan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bing Yan\\Desktop\\adesk application\\project\\RESTFruitWPF\\TestRestApiFruitWPF\\TestRestApiFruitWPF\\TestRestApiFruitWPF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bing Yan\\Desktop\\adesk application\\project\\RESTFruitWPF\\TestRestApiFruitWPF\\TestRestApiFruitWPF\\TestRestApiFruitWPF.csproj",
+        "projectName": "TestRestApiFruitWPF",
+        "projectPath": "C:\\Users\\Bing Yan\\Desktop\\adesk application\\project\\RESTFruitWPF\\TestRestApiFruitWPF\\TestRestApiFruitWPF\\TestRestApiFruitWPF.csproj",
+        "packagesPath": "C:\\Users\\Bing Yan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bing Yan\\Desktop\\adesk application\\project\\RESTFruitWPF\\TestRestApiFruitWPF\\TestRestApiFruitWPF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bing Yan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows7.0",
+            "projectReferences": {
+              "C:\\Users\\Bing Yan\\Desktop\\adesk application\\project\\RESTFruitWPF\\RestApiFruitWPF\\RestApiFruitWPF.csproj": {
+                "projectPath": "C:\\Users\\Bing Yan\\Desktop\\adesk application\\project\\RESTFruitWPF\\RestApiFruitWPF\\RestApiFruitWPF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
